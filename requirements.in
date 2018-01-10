@@ -1,6 +1,7 @@
 # tools
 pip-tools
 autoenv
+httpie
 
 # req
 flask
