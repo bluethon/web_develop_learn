@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  app:
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+#    image: web_develop:dev
+    image: python:3
+    container_name: 'web_dev'
+    ports:
+      - '5000:5000'
+    working_dir: /app
+    volumes:
+      - .:/app
