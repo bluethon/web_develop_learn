@@ -5,3 +5,4 @@ httpie
 
 # req
 flask
+python-dotenv
