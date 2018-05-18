@@ -2,6 +2,7 @@
 pip-tools
 autoenv
 httpie
+flask-shell-ipython
 
 # req
 flask
